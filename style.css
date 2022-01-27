@@ -7,7 +7,6 @@ body {
 .navbar-item{
     padding: 15px 100px 15px 100px;
     background-color: #598392;
-    
 }
 
 .button{
@@ -19,6 +18,7 @@ body {
 
 
 #title{
+    font-family: Helvetica;
     color: white;
     text-align: center;
     background-color: #01161E;
@@ -34,11 +34,13 @@ body {
 #linkedin-contact{
     background-color: #0E76A8;
     padding: 5px;
-  
-    
 }
 
 #github-page{
     padding: 5px;
     background-color: black;
+}
+
+#picture{
+    border-radius: 50px;
 }
