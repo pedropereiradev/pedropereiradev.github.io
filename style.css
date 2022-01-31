@@ -1,46 +1,60 @@
-body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    background-color: #EFF6E0;
-    font-size: 16px;
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(49, 49, 49);
 }
 
-.navbar-item{
-    padding: 15px 100px 15px 100px;
-    background-color: #598392;
+#navigation-bar {
+    /*background-color: coral;*/
 }
 
-.button{
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+#page-title {
+    display: inline-block;
+    color: rgb(1, 73, 124);
 }
 
+#personal-name {
+    color: rgb(1, 79, 134);
+}
 
-#title{
-    font-family: Helvetica;
-    color: white;
+ #navigation-menu {
+     display: inline-block;
+     float: right;
+     margin-top: 30px;
+    /* background-color: cyan;*/
+ }
+
+ #navigation-menu a {
+     text-decoration: none;
+     padding-right: 60px ;
+     font-weight: 600;
+     /*background-color:cornflowerblue ;*/
+ }
+
+ #navigation-menu a:visited {
+      color: rgb(49, 49, 49);
+  }
+
+ #navigation-menu a:hover {
+     color: rgb(97, 165, 194);
+     font-weight: bold;
+ }
+
+ #navigation-menu a:active{
+     color: rgb(97, 165, 194);
+     font-weight: bold;
+ }
+
+ #apresentation {
+    margin-top: 35px;
+   /* background-color: darkgrey;*/
+ }
+
+ #apresentation-introduction {
+    display: inline-block;
+    max-width:500px;
     text-align: center;
-    background-color: #01161E;
-    padding: 20px;
-}
+ }
 
-#navbar {
-    background-color: #AEC3B0;
-    text-align: center;
-    padding: 20px;
-}
-
-#linkedin-contact{
-    background-color: #0E76A8;
-    padding: 5px;
-}
-
-#github-page{
-    padding: 5px;
-    background-color: black;
-}
-
-#picture{
-    border-radius: 50px;
-}
+ #apresentation-image{
+     max-width: 500px;
+ }
