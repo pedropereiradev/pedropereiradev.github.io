@@ -1,0 +1,80 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(49, 49, 49);
+}
+
+#page-title {
+    display: inline-block;
+    color: rgb(1, 73, 124);
+}
+
+#personal-name {
+    color: rgb(1, 79, 134);
+}
+
+ #navigation-menu {
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    /* background-color: cyan;*/
+ }
+
+ #navigation-menu a {
+    text-decoration: none;
+    padding-right: 60px ;
+    font-weight: 600;
+     /*background-color:cornflowerblue ;*/
+ }
+
+ #navigation-menu a:visited {
+    color: rgb(49, 49, 49);
+  }
+
+ #navigation-menu a:hover {
+    color: rgb(97, 165, 194);
+    font-weight: bold;
+ }
+
+ #navigation-menu a:active{
+    color: rgb(97, 165, 194);
+    font-weight: bold;
+ }
+
+ #apresentation {
+    margin-top: 35px;  
+    background-color: darkgrey;
+ }
+
+ #apresentation-introduction {
+    display: inline-block;
+    float: left;
+    max-width:60%;
+    text-align: center;
+    padding-top: 100px;
+    overflow:hidden;
+    /*background-color: chocolate;*/
+ }
+
+ #apresentation-introduction h2{
+    font-size: 40px;
+    line-height: 70px;
+ }
+
+ #apresentation-introduction p {
+    padding-left: 10px;
+ }
+
+ #apresentation-image{
+    display: inline-block;
+    max-width: 30%;
+    background-color: cornflowerblue;
+    padding: 5px;    
+ }
+
+ #soft-skills {
+    display: inline-block;
+ }
+
+ #hard-skills {
+    display: inline-block;
+ }
