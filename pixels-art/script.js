@@ -27,16 +27,6 @@ function removeOtherSelections() {
   }
 }
 
-const colorButton = document.querySelector("#more-color");
-colorButton.addEventListener("click", () => {
-  const colorPalette = document.querySelector("#color-palette");
-  const newColor = document.createElement("div");
-  newColor.style.backgroundColor = randomColorGenerator();
-  newColor.className = "color";
-  colorPalette.appendChild(newColor);
-  addSelectedClass();
-});
-
 /*
   referencia:
   https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/
@@ -51,6 +41,16 @@ function addSelectedClass() {
     });
   });
 }
+
+const colorButton = document.querySelector("#more-color");
+colorButton.addEventListener("click", () => {
+  const colorPalette = document.querySelector("#color-palette");
+  const newColor = document.createElement("div");
+  newColor.style.backgroundColor = randomColorGenerator();
+  newColor.className = "color";
+  colorPalette.appendChild(newColor);
+  addSelectedClass();
+});
 
 function addSelectedColor() {
   document.querySelectorAll(".pixel").forEach((item) => {
@@ -69,7 +69,7 @@ function addSelectedColor() {
 
 function clearBoard() {
   const button = document.querySelector("#clear-board");
-  button.addEventListener("click", function clearFunction() {
+  button.addEventListener("click", () => {
     document.querySelectorAll(".pixel").forEach((item) => {
       item.style.backgroundColor = "white";
     });
@@ -138,7 +138,7 @@ function checkSize(size) {
 
 function selectSize() {
   const button = document.querySelector("#generate-board");
-  button.addEventListener("click", function sizeFunction() {
+  button.addEventListener("click", () => {
     const boardSize = document.querySelector("#board-size");
     const size = checkSize(boardSize.value);
 
