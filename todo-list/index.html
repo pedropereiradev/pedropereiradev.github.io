@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>To do List</title>
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <section id="input-section">
+      <input type="text" name="texto-tarefa" id="texto-tarefa">
+      <button type="submit" id="criar-tarefa">Adicionar</button>
+    </section>
+    <section id="todo-list">
+      <ol id="lista-tarefas"></ol>
+    </section>
+    <section id="button-section">
+      <div id="nav-btn">
+        <!-- https://unicode-table.com/pt/1403/ -->
+        <button type="submit" id="mover-cima"> ᐃ </button>
+        <!-- https://unicode-table.com/pt/1401/ -->
+        <button type="submit" id="mover-baixo"> ᐁ </button>
+        <!-- https://unicode-table.com/pt/274C/ -->
+        <button id="remover-selecionado"> X </button>
+      </div>
+      <div id="clr-btn">
+        <button type="submit" id="apaga-tudo">Limpar Tudo</button>
+        <button type="submit" id="remover-finalizados">Limpa Finalizados</button>
+        <button type="submit" id="salvar-tarefas">Salvar Tarefas</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
